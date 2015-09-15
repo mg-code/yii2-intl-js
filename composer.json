@@ -1,6 +1,6 @@
 {
     "name": "mg-code/yii2-intl-js",
-    "description": "Yii2 wrapper",
+    "description": "Yii2 wrapper for popular JavaScript andyearnshaw/Intl.js library.",
     "keywords": ["yii2", "extension", "asset", "intl.js", "intl", "JavaScript", "Internationalization API"],
     "homepage": "https://github.com/mg-code/yii2-intl-js",
     "type": "yii2-extension",
