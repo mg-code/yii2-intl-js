@@ -1,0 +1,24 @@
+{
+    "name": "mg-code/yii2-intl-js",
+    "description": "Yii2 wrapper",
+    "keywords": ["yii2", "extension", "asset", "intl.js", "intl", "JavaScript", "Internationalization API"],
+    "homepage": "https://github.com/mg-code/yii2-intl-js",
+    "type": "yii2-extension",
+    "license": "BSD 3-Clause",
+    "authors": [
+        {
+            "name": "Maris Graudins",
+			"role": "Developer"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "yiisoft/yii2": "*",
+		"bower-asset/intl": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "mgcode\\intljs\\": ""
+        }
+    }
+}
