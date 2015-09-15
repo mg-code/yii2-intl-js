@@ -22,7 +22,7 @@
     "minimum-stability": "stable",
     "require": {
         "yiisoft/yii2": "*",
-        "bower-asset/intl": ">=1"
+        "bower-asset/intl": "1.0.*"
     },
     "autoload": {
         "psr-4": {
