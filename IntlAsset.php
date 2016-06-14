@@ -1,23 +1,15 @@
 <?php
-/**
- * @link https://github.com/mg-code/yii2-intl-js
- */
 
 namespace mgcode\intljs;
 
-use yii\web\AssetBundle;
-
 /**
- * @author Maris Graudins
+ * This package is deprecated, use https://github.com/mg-code/yii2-intl-js instead.
  */
-class IntlAsset extends AssetBundle
+class IntlAsset extends \mgcode\assets\IntlJsAsset
 {
-    public $sourcePath = '@bower/intl/dist';
-    public $js = [];
-    public $depends = [];
-
-    public function init() {
+    public function init()
+    {
         parent::init();
-        $this->js[] = YII_DEBUG ? 'Intl.js' : 'Intl.min.js';
+        \Yii::warning('This package is deprecated, use `mg-code/yii2-assets` instead.', 'mgcode/intljs');
     }
 }

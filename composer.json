@@ -22,7 +22,8 @@
     "minimum-stability": "stable",
     "require": {
         "yiisoft/yii2": "*",
-        "bower-asset/intl": "*"
+        "bower-asset/intl": "*",
+        "mg-code/yii2-assets": "*"
     },
     "autoload": {
         "psr-4": {
